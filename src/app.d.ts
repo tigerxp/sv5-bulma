@@ -8,6 +8,12 @@ declare global {
 		// interface PageState {}
 		// interface Platform {}
 	}
+
+	interface menuItem {
+		title: string;
+		href?: PathName;
+		items?: menuItem[];
+	}
 }
 
 export {};
